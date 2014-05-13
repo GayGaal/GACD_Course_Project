@@ -10,10 +10,10 @@ fileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20
 filename <- paste(zipDir, "uci_data.zip", sep="/")
 
 ## downloading the file
-#download.file(fileUrl, filename)
+download.file(fileUrl, filename)
 
 ## unzipping the file
-#unzip(filename, exdir=zipDir)
+unzip(filename, exdir=zipDir)
 
 ## setting the new directories
 dataDir <- paste(zipDir, "UCI HAR Dataset", sep="/")
