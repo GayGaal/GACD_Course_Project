@@ -10,4 +10,4 @@ folders: analysis is run simply by running the script from anywhere.
 
 The script downloads the zip file, unzips it and processes the downloaded data, following
 the steps indicated in the assignment, to finally produce the tidy data dataset 
-'tidy_data.txt', as required by the assignment.
+'tidy_data.txt' (a csv file), as required by the assignment.
