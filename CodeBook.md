@@ -30,7 +30,7 @@ The initial downloaded dataset contains **561** different variables, among them 
 analysis is aimed at:  
 
 *`mean` - containing the data on the mean measurement of a variable  
-*`std` - (abbriviated to `sd` in the final dataset) containing the data on the   
+*`std` - (abbreviated to `sd` in the final dataset) containing the data on the   
 standard deviation of a variable  
 
 For the purposes of this analysis, variables `meanFreq` and `gravityMean` were not  
@@ -41,9 +41,9 @@ This leaves the dataset with only **66** variables, that will be used further in
 ### Coding Process
 
 For the purposes of easier code understanding, the script `run_analysis.R`  
-contains all the comments on the processes of the analyis.  
+contains all the comments on the processes of the analysis.  
 
-The script is devided into 7 main steps:  
+The script is divided into 7 main steps:  
 
 **1. Step 1 - downloading the data and preparing filepaths**  
 During this step, a folder for the downloaded data is created, a zip file is downloaded,  
@@ -75,7 +75,7 @@ The data is transformed in a following way: for each variable present in the dat
 mean and standard deviation are calculated, based on different activities for different  
 subjects.   
 In this way, the data is skimmed from more than 10000 observations per variable to only  
-6 (activities) * 30 (subjects) = 180 oservations of 66 variables.
+6 (activities) * 30 (subjects) = 180 observations of 66 variables.
 This data is then stored in a R object `mean`.  
 
 **7. Step 7 - writing the tidy data to disk**  
